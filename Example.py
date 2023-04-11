@@ -23,4 +23,4 @@ Chart = alt.Chart(model).mark_rect().encode(
     tooltip='z:Q'
 )
 
-st.altair_chart(Chart, use_containter_width=True)
+st.altair_chart(Chart)
