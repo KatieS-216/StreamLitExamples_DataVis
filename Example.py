@@ -19,7 +19,7 @@ model = pd.DataFrame({'x': x.ravel(),
 Chart = alt.Chart(model).mark_rect().encode(
     x='x:O',
     y='y:O',
-    color='z:A',
+    color='z:Q',
     tooltip='z:Q'
 )
 
