@@ -8,7 +8,7 @@ Low = 100
 High = 100000
 
 # Compute x^2 + y^2 across a 2D grid
-x, y = np.meshgrid(range(Low, High, 5000), range(10, 100, 10))
+x, y = np.meshgrid(range(Low, High, 5000), range(10, 110, 10))
 z = x * y
 
 # Convert this grid to columnar data expected by Altair
